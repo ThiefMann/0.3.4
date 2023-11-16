@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Attached",
+    "type": "Status",
+    "exclusive": "Mech",
+    "terse": "Go for a ride.",
+    "effects": "<div>When a character or object attaches to another character or object that is at least one size larger than them, they become tethered by strong cables, magnetic forces, controlled gravitational pull, or other means, occupying the same space as the bigger character. Attached Characters (“Riders”) cannot move on their own, instead moving when their host moves (even if the Rider is <strong>Slowed </strong>or <strong>Immobilized</strong>), including involuntary movement. The Rider always counts as Adjacent to their host, and vice versa, for the purposes of traits, talents, systems, etc; if a system, trait, or other effect caused by the Host or Rider would have a negative affect to adjacent characters, the Rider or Host may choose to be unaffected. The Attachment lasts until one of the characters becomes <strong>Stunned</strong>, knocked Prone, or are otherwise forced to move away from one another. Attachment can also always be ended by the Rider using a protocol to detach. A Rider can only attach to a single host, and a character may host Riders of a combined size not larger than its own size at any given time.</div>",
+    "icon_url": "https://cdn.discordapp.com/attachments/1005579364689264726/1079966659177095218/R.png"
+  },
+  {
+    "name": "Blinded",
+    "terse": "Disrupt a character's ability to see.",
+    "type": "Condition",
+    "exclusive": "Mech",
+    "effects": "<div>Blinded characters are unable to draw line of sight beyond adjacent spaces.</div>",
+    "icon_url": "."
+  },
+  {
+    "name": "Dazed",
+    "type": "Condition",
+    "exclusive": "Mech",
+    "effects": "<div><strong>Dazed </strong>Characters cannot take Free Actions (except for Protocols), Full Actions, or Reactions, Cannot Overcharge, and can only perform a Standard Movement and a single Quick Action on their turn.</div><div>Credit to <strong>Arcliner</strong> for the <strong>Dazed</strong> Condition.</div>",
+    "terse": "Cripple and maim characters to limit their action potential.",
+    "icon_url": "."
+  }
+]

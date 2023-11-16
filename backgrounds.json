@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Rubbleborn (Colonial)",
+    "description": "<div>You are a Colonial Rubbleborn, created to heed the call of the HiveMind and ensure the survival of your fellows. <em>Are you from the Rubble itself, or the product of a new colony?</em></div><div>Every Rubbleborn has a role to play in the operation of their colony.<em> Are you a worker? A miner? An artist? A researcher?</em></div>",
+    "id": "kie_bg_rubbleborn_col"
+  },
+  {
+    "description": "<div>You are an Auton, a Rubbleborn that follows their own path, without the guidance of the HiveMind or the safety of the colony. <em>Are you seeking to found your own colony? Do you just want to experience the world differently?</em></div><div>It is uncommon for any Rubbleborn to be removed from or be deaf to the HiveMind, willingly or otherwise. <em>Were you exiled from it? Were you an ex-cultist shunned away by other Rubbleborn? Or did you leave on your own on the look for something special?</em></div>",
+    "name": "Rubbleborn (Autonomous)",
+    "id": "kie_bg_rubbleborn_auton"
+  }
+]
