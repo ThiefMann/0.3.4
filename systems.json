@@ -959,8 +959,8 @@
     ]
   },
   {
-    "id": "kie_soldier_drone_one",
-    "name": "Soldier Drone I",
+    "id": "kie_Companion_drone_one",
+    "name": "Companion Drone I",
     "source": "",
     "license": "",
     "license_id": "",
@@ -976,9 +976,9 @@
     ],
     "deployables": [
       {
-        "name": "Soldier Drone",
+        "name": "Companion Drone",
         "type": "Drone",
-        "detail": "<div>This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a soldier drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses.</div></li></ul>",
+        "detail": "<div>This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a Companion drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses.</div></li></ul>",
         "size": 0.5,
         "activation": "Quick",
         "deactivation": "",
@@ -1000,9 +1000,9 @@
         "mech": false,
         "actions": [
           {
-            "name": "Soldier Drone Command",
+            "name": "Companion Drone Command",
             "activation": "Protocol",
-            "detail": "<div>You order the Solier Drone to move up to its speed in a direction of your choosing.</div>",
+            "detail": "<div>You order the Companion Drone to move up to its speed in a direction of your choosing.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
@@ -1011,9 +1011,9 @@
             "trigger": ""
           },
           {
-            "name": "Soldier Drone Attack Order",
+            "name": "Companion Drone Attack Order",
             "activation": "Reaction",
-            "detail": "<div>You order your Soldier Drone to attack your target with its weapons.</div>",
+            "detail": "<div>You order your Companion Drone to attack your target with its weapons.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
@@ -1026,8 +1026,8 @@
     ]
   },
   {
-    "id": "kie_soldier_drone_two",
-    "name": "Soldier Drone II",
+    "id": "kie_Companion_drone_two",
+    "name": "Companion Drone II",
     "source": "",
     "license": "",
     "license_level": 0,
@@ -1042,9 +1042,9 @@
     ],
     "deployables": [
       {
-        "name": "Soldier Drone II",
+        "name": "Companion Drone II",
         "type": "Drone",
-        "detail": "<div>This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a soldier drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses. <div></div>Additionally, when you deploy this drone, choose one of the following Configurations to grant a unique bonus to your Soldier Drone: Assault, Stealth, Recon or Maintenance.</div></div><ul><li><div>Assault: The drone’s mount is upgraded to a FLEX mount.</div></li></ul><ul><li><div>Stealth: The drone is permanently Invisible, and is able to Hide after it moves. </div></li></ul><ul><li><div>Recon: The drone gains a sensor range of 5, and you may order it to Scan instead of moving</div></li></ul><ul><li><div>Maintenance: At the end of your turn, a character adjacent to the drone of your choice may clear 1 Heat or gain 2 Overshield.</div></li></ul>",
+        "detail": "<div>This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a Companion drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses. <div></div>Additionally, when you deploy this drone, choose one of the following Configurations to grant a unique bonus to your Companion Drone: Assault, Stealth, Recon or Maintenance.</div></div><ul><li><div>Assault: The drone’s mount is upgraded to a FLEX mount.</div></li></ul><ul><li><div>Stealth: The drone is permanently Invisible, and is able to Hide after it moves. </div></li></ul><ul><li><div>Recon: The drone gains a sensor range of 5, and you may order it to Scan instead of moving</div></li></ul><ul><li><div>Maintenance: At the end of your turn, a character adjacent to the drone of your choice may clear 1 Heat or gain 2 Overshield.</div></li></ul>",
         "size": 0.5,
         "activation": "Quick",
         "deactivation": "",
@@ -1066,9 +1066,9 @@
         "mech": false,
         "actions": [
           {
-            "name": "Soldier Drone Command",
+            "name": "Companion Drone Command",
             "activation": "Protocol",
-            "detail": "<div>You order the Solier Drone to move up to its speed in a direction of your choosing.</div>",
+            "detail": "<div>You order the Companion Drone to move up to its speed in a direction of your choosing.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
@@ -1077,9 +1077,9 @@
             "trigger": ""
           },
           {
-            "name": "Soldier Drone Attack Order",
+            "name": "Companion Drone Attack Order",
             "activation": "Reaction",
-            "detail": "<div>You order your Soldier Drone to attack your target with its weapons.</div>",
+            "detail": "<div>You order your Companion Drone to attack your target with its weapons.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
@@ -1092,8 +1092,8 @@
     ]
   },
   {
-    "id": "kie_soldier_drone_three",
-    "name": "Soldier Drone III",
+    "id": "kie_Companion_drone_three",
+    "name": "Companion Drone III",
     "source": "",
     "license": "",
     "license_id": "",
@@ -1109,9 +1109,9 @@
     ],
     "deployables": [
       {
-        "name": "Soldier Drone III",
+        "name": "Companion Drone III",
         "type": "Drone",
-        "detail": "<div>This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a soldier drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses.<div></div> Additionally, when you deploy this drone, choose one of the following Configurations to grant a unique bonus to your Soldier Drone: Assault, Stealth, Recon or Maintenance.</div></div><ul><li><div>Assault: The drone’s mount is upgraded to a FLEX mount.</div></li></ul><ul><li><div>Stealth: The drone is permanently Invisible, and is able to Hide after it moves. </div></li></ul><ul><li><div>Recon: The drone gains a sensor range of 5, and you may order it to Scan instead of moving</div></li></ul><ul><li><div>Maintenance: At the end of your turn, a character adjacent to the drone of your choice may clear 1 Heat or gain 2 Overshield.</div></li></ul><div>Lastly, 1/mission, you can deploy two Soldier drones instead of one. Each of these drones can use a different configuration and set of weapons. You can give the same or different orders to each one of these drones, and the limit of the reaction attack increases to 2/round, one for each drone.</div>",
+        "detail": "<div>This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a Companion drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses.<div></div> Additionally, when you deploy this drone, choose one of the following Configurations to grant a unique bonus to your Companion Drone: Assault, Stealth, Recon or Maintenance.</div></div><ul><li><div>Assault: The drone’s mount is upgraded to a FLEX mount.</div></li></ul><ul><li><div>Stealth: The drone is permanently Invisible, and is able to Hide after it moves. </div></li></ul><ul><li><div>Recon: The drone gains a sensor range of 5, and you may order it to Scan instead of moving</div></li></ul><ul><li><div>Maintenance: At the end of your turn, a character adjacent to the drone of your choice may clear 1 Heat or gain 2 Overshield.</div></li></ul><div>Lastly, 1/mission, you can deploy two Companion drones instead of one. Each of these drones can use a different configuration and set of weapons. You can give the same or different orders to each one of these drones, and the limit of the reaction attack increases to 2/round, one for each drone.</div>",
         "size": 0.5,
         "activation": "Quick",
         "deactivation": "",
@@ -1133,9 +1133,9 @@
         "mech": false,
         "actions": [
           {
-            "name": "Soldier Drone Command",
+            "name": "Companion Drone Command",
             "activation": "Protocol",
-            "detail": "<div>You order the Solier Drone to move up to its speed in a direction of your choosing.</div>",
+            "detail": "<div>You order the Companion Drone to move up to its speed in a direction of your choosing.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
@@ -1144,9 +1144,9 @@
             "trigger": ""
           },
           {
-            "name": "Soldier Drone Attack Order",
+            "name": "Companion Drone Attack Order",
             "activation": "Reaction",
-            "detail": "<div>You order your Soldier Drone to attack your target with its weapons.</div>",
+            "detail": "<div>You order your Companion Drone to attack your target with its weapons.</div>",
             "pilot": false,
             "synergy_locations": [],
             "tech_attack": false,
