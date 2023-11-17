@@ -7,8 +7,9 @@
     "ranks": [
       {
         "name": "Personal Touch",
-        "description": "<div>When you print your mech or complete a Full Repair, you can print a Gadget, a special type of Limited System. When printing a Gadget, choose one from the following options: Spiked Plating, Improvised Jump Jets, Jury-Rigged Computers, Homebrewed Fuel Injector.</div><div>At your GM’s discretion, you may design your own Gadget to use with this talent.</div>",
-        "exclusive": false
+        "description": "<div>When you print your mech or complete a Full Repair, you can print a Gadget, a special type of Limited System. When printing a Gadget, choose one from the following options: Spiked Plating, Improvised Jump Jets, Jury-Rigged Computers, Homebrewed Fuel Injector.</div><div>At your GMâ€™s discretion, you may design your own Gadget to use with this talent.</div>",
+        "special_equipment": ["kie_gadget_spikes_I", "kie_gadget_jets_I", "kie_gadget_scramblers_I", "kie_gadget_injector_I"],
+        "exclusive": true
       },
       {
         "name": "Tune Up",
@@ -18,7 +19,8 @@
       {
         "name": "Magnum Opus",
         "description": "<div>You can install up to 3 different Gadgets, using their Magnus Opus version which has improved effects and number of Limited charges. </div><div>If you installed a Custom Gadget, improve its Limited Tag by 1 and you may discuss its Magnum Opus version with your DM.</div>",
-        "exclusive": false
+        "special_equipment": ["kie_gadget_spikes_II", "kie_gadget_jets_II", "kie_gadget_scramblers_II", "kie_gadget_injector_II"],
+        "exclusive": true
       }
     ]
   },
@@ -74,7 +76,7 @@
     "id": "kie_Legion",
     "name": "Camaraderie",
     "terse": "Increase the firepower of your team with coordinated tactics and techniques.",
-    "description": "<div><em>HiveMind technology has been acquired by Chartered Companies and other factions on Jovo, and its capabilities for coordination have both combat and utility uses. While rolled out slowly and carefully, the link between small groups of individuals can allow for rapid and complex maneuvers to be pulled off with minimal training.</em></div><div><em>These \"Comrades” share a deep bond that goes more than merely psychological. Perhaps you were assigned a new partner, replacing a previous one, or you two have served side-by-side, and come Hell or high water, you will be as immovable as the earth under your feet.</em></div>",
+    "description": "<div><em>HiveMind technology has been acquired by Chartered Companies and other factions on Jovo, and its capabilities for coordination have both combat and utility uses. While rolled out slowly and carefully, the link between small groups of individuals can allow for rapid and complex maneuvers to be pulled off with minimal training.</em></div><div><em>These \"Comradesâ€ share a deep bond that goes more than merely psychological. Perhaps you were assigned a new partner, replacing a previous one, or you two have served side-by-side, and come Hell or high water, you will be as immovable as the earth under your feet.</em></div>",
     "ranks": [
       {
         "name": "Squad Stabilizers",
@@ -112,7 +114,7 @@
             "tech_attack": false,
             "frequency": "1/round",
             "init": "",
-            "trigger": "<div>Your Comrade hits a character that doesn’t have cover from your position.</div>"
+            "trigger": "<div>Your Comrade hits a character that doesnâ€™t have cover from your position.</div>"
           }
         ],
         "exclusive": false
@@ -127,7 +129,7 @@
     "ranks": [
       {
         "name": "So Others May Live",
-        "description": "<div>Gain the “So Others May Live” Reaction.</div>",
+        "description": "<div>Gain the â€œSo Others May Liveâ€ Reaction.</div>",
         "synergies": [
           {
             "locations": [
@@ -174,7 +176,7 @@
       },
       {
         "name": "Devout Sacrifice",
-        "description": "<div>When you use your “So Others May Live” Reaction, the allied character being attacked gains Overshield equal to 2 + your GRIT.</div><div>Additionally, when you use your “So Others May Live” Reaction, you may perform a Devout Sacrifice. When you do so, they may move up to 3 spaces in a direction of their choice ignoring reactions and engagement. Then, you become the target of the triggering attack instead. If the attack has the ability to target multiple characters (such as attacks with the Blast, Burst, Line, or Cone property), it cannot target the original character you Sacrificed yourself for, even if they would otherwise be a valid target.</div><div>You may only Sacrifice yourself for each allied character 1/Scene.</div>",
+        "description": "<div>When you use your â€œSo Others May Liveâ€ Reaction, the allied character being attacked gains Overshield equal to 2 + your GRIT.</div><div>Additionally, when you use your â€œSo Others May Liveâ€ Reaction, you may perform a Devout Sacrifice. When you do so, they may move up to 3 spaces in a direction of their choice ignoring reactions and engagement. Then, you become the target of the triggering attack instead. If the attack has the ability to target multiple characters (such as attacks with the Blast, Burst, Line, or Cone property), it cannot target the original character you Sacrificed yourself for, even if they would otherwise be a valid target.</div><div>You may only Sacrifice yourself for each allied character 1/Scene.</div>",
         "exclusive": false
       }
     ]
@@ -246,7 +248,7 @@
     "ranks": [
       {
         "name": "Loyal Companion",
-        "description": "<div>You are accompanied by a Soldier Drone that can be deployed or retrieved as a quick action. This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weapon’s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a soldier drone, not both, and any SP cost is subtracted from your mech’s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses.</div><div>You can use a protocol to order the drone to move up to its speed in a direction of your choosing. 1/round, when you score a critical hit against a target within the drone weapon’s range, you can order it to attack them as a reaction.</div>",
+        "description": "<div>You are accompanied by a Companion Drone that can be deployed or retrieved as a quick action. This Drone has enough space to fit a single AUX weapon available to you, which you choose when deploying the drone.  The weaponâ€™s threat, cone, burst, line, blast and range is reduced to 3, unless already lower, if the weapon has the Unique property it can only be installed in either your mech or a Companion Drone, not both, and any SP cost is subtracted from your mechâ€™s SP limit (NOTE: This feature is unsupported by Comp/Con, instead you can write the weapons in the notes section of the Drone, creating custom counters for their limited uses, and accounting for SP accordingly). This weapon cannot be modified and doesn't benefit from your talents, traits or core bonuses.</div><div>You can use a protocol to order the drone to move up to its speed in a direction of your choosing. 1/round, when you score a critical hit against a target within the drone weaponâ€™s range, you can order it to attack them as a reaction.</div>",
         "integrated": [
           "kie_soldier_drone_one"
         ],
@@ -254,7 +256,7 @@
       },
       {
         "name": "Specialized Design",
-        "description": "<div>When deployed, choose one of the following Configurations to grant a unique bonus to your Soldier Drone: Assault, Stealth, Recon or Maintenance.</div></div><ul><li><div>Assault: The drone’s mount is upgraded to a FLEX mount.</div></li></ul><ul><li><div>Stealth: The drone is permanently Invisible, and is able to Hide after it moves. </div></li></ul><ul><li><div>Recon: The drone gains a sensor range of 5, and you may order it to Scan instead of moving</div></li></ul><ul><li><div>Maintenance: At the end of your turn, a character adjacent to the drone of your choice may clear 1 Heat or gain 2 Overshield.</div></li></ul>",
+        "description": "<div>When deployed, choose one of the following Configurations to grant a unique bonus to your Companion Drone: Assault, Stealth, Recon or Maintenance.</div></div><ul><li><div>Assault: The droneâ€™s mount is upgraded to a FLEX mount.</div></li></ul><ul><li><div>Stealth: The drone is permanently Invisible, and is able to Hide after it moves. </div></li></ul><ul><li><div>Recon: The drone gains a sensor range of 5, and you may order it to Scan instead of moving</div></li></ul><ul><li><div>Maintenance: At the end of your turn, a character adjacent to the drone of your choice may clear 1 Heat or gain 2 Overshield.</div></li></ul>",
         "integrated": [
           "kie_soldier_drone_two"
         ],
@@ -262,7 +264,7 @@
       },
       {
         "name": "Gemini",
-        "description": "<div>1/Mission, you can deploy two Soldier drones instead of one. Each of these drones can use a different configuration and set of weapons. You can give the same or different orders to each one of these drones, and the limit of the reaction attack increases to 2/round, one for each drone.</div>",
+        "description": "<div>1/Mission, you can deploy two Companion Drones instead of one. Each of these drones can use a different configuration and set of weapons. You can give the same or different orders to each one of these drones, and the limit of the reaction attack increases to 2/round, one for each drone.</div>",
         "integrated": [
           "kie_soldier_drone_three"
         ],
