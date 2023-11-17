@@ -1159,28 +1159,22 @@
     ]
   },
   {
-    "id": "kie_gadget_spikes",
+    "id": "kie_gadget_spikes_I",
     "name": "Gadget: Spiked Plating",
     "source": "",
     "license": "",
     "license_id": "",
     "license_level": 1,
-    "effect": "<div>1/round, when you successfully Grapple, Ram or make an Improvised Attack, you may spend a charge as a free action. If you do so, your target takes 2 AP Kinetic damage and becomes Impaired until the end of their next turn.</div><div></div><div>You can only have a number of Gadgets equipped equal to your Rank in the \"Artisan\" talent.</div>",
+    "effect": "",
     "type": "System",
     "sp": "0",
-    "description": "<div>Gained from the Artisan talent.</div>",
+    "description": "<div>Gained from rank I of the Artisan talent.</div>",
     "tags": [
       {
         "id": "tg_limited",
         "name": "LIMITED {VAL}",
         "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
         "val": 2
-      },
-      {
-        "id": "tg_indestructible",
-        "name": "INDESTRUCTIBLE",
-        "description": "This equipment cannot be marked as Destroyed",
-        "filter_ignore": true
       },
       {
         "id": "tg_unique",
@@ -1191,14 +1185,47 @@
     "actions": [
       {
         "name": "Spiked Grasp",
-        "activation": "Free",
-        "detail": "<div>1/round, when you successfully Grapple, Ram or make an Improvised Attack, you may spend a charge as a free action. If you do so, your target takes 2 AP Kinetic damage and becomes Impaired until the end of their next turn.</div>",
+        "activation": "Quick",
+        "detail": "<div>Spend a charge to deal 1d6 Kinetic Damage to a character you are Grappling. They also become Impaired until the end of their next turn.</div>",
         "pilot": false,
-        "synergy_locations": [
-          "ram",
-          "grapple",
-          "improvised_attack"
-        ],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },{
+    "id": "kie_gadget_spikes_II",
+    "name": "Magnum Opus Gadget: Spiked Plating",
+    "source": "",
+    "license": "",
+    "license_id": "",
+    "license_level": 1,
+    "effect": "",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Gained from rank III of the Artisan talent.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "LIMITED {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      },
+      {
+        "id": "tg_unique",
+        "name": "UNIQUE",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Spiked Grasp",
+        "activation": "Quick",
+        "detail": "<div>Spend a charge  to deal 1d6+3 Kinetic Damage to a character you are Grappling. They also become Impaired until the end of their next turn, and must make a Hull Save or become Shredded until the end of their next turn.</div>",
+        "pilot": false,
+        "synergy_locations": [],
         "tech_attack": false,
         "frequency": "Unlimited",
         "init": "",
@@ -1207,28 +1234,22 @@
     ]
   },
   {
-    "id": "kie_gadget_jets",
+    "id": "kie_gadget_jets_I",
     "name": "Gadget: Improvised Jump Jets",
     "source": "",
     "license": "",
     "license_id": "",
     "license_level": 1,
-    "effect": "<div>You can only have a number of Gadgets equipped equal to your Rank in the \"Artisan\" talent.</div>",
+    "effect": "",
     "type": "System",
     "sp": "0",
-    "description": "<div>Gained from the Artisan talent.</div>",
+    "description": "<div>Gained from rank I of the Artisan talent.</div>",
     "tags": [
       {
         "id": "tg_limited",
         "name": "LIMITED {VAL}",
         "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
         "val": 2
-      },
-      {
-        "id": "tg_indestructible",
-        "name": "INDESTRUCTIBLE",
-        "description": "This equipment cannot be marked as Destroyed",
-        "filter_ignore": true
       },
       {
         "id": "tg_unique",
@@ -1239,8 +1260,8 @@
     "actions": [
       {
         "name": "Improvised Jump Jets",
-        "activation": "Protocol",
-        "detail": "<div>Spend a charge to fly 3 spaces in a straight line.</div>",
+        "activation": "Quick",
+        "detail": "<div>Expend a Limited Charge of this System to Fly 1d3+2 spaces. You must end this movement on a solid surface or begin falling.</div>",
         "pilot": false,
         "synergy_locations": [],
         "tech_attack": false,
@@ -1251,28 +1272,22 @@
     ]
   },
   {
-    "id": "kie_gadget_scramblers",
-    "name": "Gadget: Jury-Rigged Scramblers",
+    "id": "kie_gadget_jets_II",
+    "name": "Magnum Opus Gadget: Improvised Jump Jets",
     "source": "",
     "license": "",
     "license_id": "",
     "license_level": 1,
-    "effect": "<div>You can only have a number of Gadgets equipped equal to your Rank in the \"Artisan\" talent.</div>",
+    "effect": "",
     "type": "System",
     "sp": "0",
-    "description": "<div>Gained from the Artisan talent.</div>",
+    "description": "<div>Gained from rank III of the Artisan talent.</div>",
     "tags": [
       {
         "id": "tg_limited",
         "name": "LIMITED {VAL}",
         "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
-        "val": 2
-      },
-      {
-        "id": "tg_indestructible",
-        "name": "INDESTRUCTIBLE",
-        "description": "This equipment cannot be marked as Destroyed",
-        "filter_ignore": true
+        "val": 3
       },
       {
         "id": "tg_unique",
@@ -1282,29 +1297,29 @@
     ],
     "actions": [
       {
-        "name": "Scrambling Signal",
-        "activation": "Reaction",
-        "detail": "<div>You may spend a charge to scramble their computers. If you do so, that character suffers +1 Difficulty on the triggering roll, and if it fails, they take 2 Heat.</div>",
+        "name": "Improvised Jump Jets",
+        "activation": "Quick",
+        "detail": "<div> Expend a Limited Charge of this System to Fly 5 spaces, then gain Soft Cover until the end of your next turn. You must end this movement on a solid surface or begin falling.</div>",
         "pilot": false,
         "synergy_locations": [],
         "tech_attack": false,
-        "frequency": "1/round",
+        "frequency": "Unlimited",
         "init": "",
-        "trigger": "<div>A character within sensors makes a Tech Attack, Systems save, or Systems check.</div>"
+        "trigger": ""
       }
     ]
   },
   {
-    "id": "kie_gadget_coolant",
-    "name": "Gadget: Homebrewed Coolant",
+    "id": "kie_gadget_scramblers_I",
+    "name": "Gadget: Jury-Rigged Scramblers",
     "source": "",
     "license": "",
     "license_id": "",
     "license_level": 1,
-    "effect": "<div>When you Overcharge, you may spend a charge of this system (no action required) to reroll the Heat generated and choose the either result.</div><div></div><div>You can only have a number of Gadgets equipped equal to your Rank in the \"Artisan\" talent.</div>",
+    "effect": "",
     "type": "System",
     "sp": "0",
-    "description": "<div>Gained from the Artisan talent.</div>",
+    "description": "<div>Gained from rank I of the Artisan talent.</div>",
     "tags": [
       {
         "id": "tg_limited",
@@ -1313,15 +1328,141 @@
         "val": 2
       },
       {
-        "id": "tg_indestructible",
-        "name": "INDESTRUCTIBLE",
-        "description": "This equipment cannot be marked as Destroyed",
-        "filter_ignore": true
+        "id": "tg_unique",
+        "name": "UNIQUE",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multitask",
+        "activation": "Quick",
+        "detail": "<div>Expend a Limited Charge of this System to perform both the Bolster and Invade tech actions.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "kie_gadget_scramblers_II",
+    "name": "Magnus Opus Gadget: Jury-Rigged Scramblers",
+    "source": "",
+    "license": "",
+    "license_id": "",
+    "license_level": 1,
+    "effect": "",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Gained from rank III of the Artisan talent.</div>",
+    "tags": [
+      {
+        "id": "tg_quick_tech",
+        "name": "QUICK TECH",
+        "description": "This tech can be used as a Quick Tech Action"
+      },
+      {
+        "id": "tg_limited",
+        "name": "LIMITED {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
       },
       {
         "id": "tg_unique",
         "name": "UNIQUE",
         "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multitask",
+        "activation": "Quick Tech",
+        "detail": "<div>Expend a Limited Charge of this System to perform both the Bolster and Invade tech actions. Hostile characters adjacent to one or both targets take 1 AP energy and 2 Heat.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "kie_gadget_injector_I",
+    "name": "Gadget: Homebrewed Fuel Injector",
+    "source": "",
+    "license": "",
+    "license_id": "",
+    "license_level": 1,
+    "effect": "",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Gained from rank I of the Artisan talent.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "LIMITED {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 2
+      },
+      {
+        "id": "tg_unique",
+        "name": "UNIQUE",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Homebrew Fuel Injection",
+        "activation": "Quick",
+        "detail": "<div>Expend a Limited Charge of this System and gain D3 Heat to grant Overkill and Keen 1 to the first ranged or melee attack you make before the end of your next turn.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+      }
+    ]
+  },
+  {
+    "id": "kie_gadget_injector_II",
+    "name": "Magnum Opus Gadget: Homebrewed Fuel Injector",
+    "source": "",
+    "license": "",
+    "license_id": "",
+    "license_level": 1,
+    "effect": "",
+    "type": "System",
+    "sp": "0",
+    "description": "<div>Gained from rank III of the Artisan talent.</div>",
+    "tags": [
+      {
+        "id": "tg_limited",
+        "name": "LIMITED {VAL}",
+        "description": "This weapon or system can only be used {VAL} times before it requires a Full Repair. Some Limited systems, like Grenades, describe these uses as “charges”. To use the system, the user expends a charge.",
+        "val": 3
+      },
+      {
+        "id": "tg_unique",
+        "name": "UNIQUE",
+        "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Homebrew Fuel Injection",
+        "activation": "Quick",
+        "detail": "<div>Expend a Limited Charge of this System and gain D3 Heat to grant Overkill and Keen 1 to the first ranged or melee attack you make before the end of your next turn. If the attack is made while you are in the Danger Zone, it gains Overkill, AP and Keen 2 instead.</div>",
+        "pilot": false,
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
       }
     ]
   },
