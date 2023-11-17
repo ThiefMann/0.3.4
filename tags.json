@@ -13,5 +13,10 @@
     "id": "kie_Bolster",
     "name": "Bolster",
     "description": "<div>This system adds additional effects which enhance the Bolster action. Whenever you Bolster an allied character, you may also choose one of the Bolster options available to you and apply it to that character.</div><div>Credits to <strong>Kai Tave</strong> for the concept of this game mechanic.</div><div>NOTE: COMP/CON currently does not support adding new types of tech actions; while represented as a Quick Tech Action on COMP/CON, anything with this tag is considered to be a Bolster option, used similarly to Invasion options.</div>"
+  },
+  {
+    "id": "kie_Keen",
+    "name": "Keen",
+    "description": "<div>A Keen weapon is able to reach and destroy vital components within a target with ease, either thanks to advanced targeting or overwhelming force. When you make an attack with a Keen weapon, lower the threshold required to score a critical hit by an amount equal to its Keen value. For example, if a weapon has Keen 2, it requires a hit roll of 18+ (instead of 20+) to score a critical hit. Keen gained from multiple sources stacks, but cannot exceed your GRIT.</div>"
   }
 ]
