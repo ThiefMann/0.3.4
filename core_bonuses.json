@@ -63,7 +63,7 @@
       {
         "name": "Resilience",
         "activation": "Reaction",
-        "detail": "<div>Take 1 heat and gain a different condition for the same duration instead. If you would become <strong>Stunned</strong>, you instead become <strong>Dazed</strong>. If you would become <strong>Jammed</strong>, you instead become <strong>Impaired</strong>. If you would become <strong>Immobilised</strong>,<strong> </strong>you instead become <strong>Slowed</strong>.</div>",
+        "detail": "<div>Take 1 heat and gain a different condition for the same duration instead. If you would become <strong>Stunned</strong>, you instead become <strong>Dazed</strong>. If you would become <strong>Jammed</strong>, you instead become <strong>Impaired</strong>. If you would become <strong>Immobilized</strong>,<strong> </strong>you instead become <strong>Slowed</strong>.</div>",
         "pilot": false,
         "synergy_locations": [],
         "tech_attack": false,
