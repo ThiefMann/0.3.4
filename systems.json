@@ -1412,6 +1412,12 @@
         "id": "tg_unique",
         "name": "UNIQUE",
         "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      },
+      {
+    "id": "kie_Keen",
+    "name": "Keen",
+    "description": "<div>A Keen weapon is able to reach and destroy vital components within a target with ease, either thanks to advanced targeting or overwhelming force. When you make an attack with a Keen weapon, lower the threshold required to score a critical hit by an amount equal to its Keen value. For example, if a weapon has Keen 2, it requires a hit roll of 18+ (instead of 20+) to score a critical hit. Keen gained from multiple sources stacks, but cannot exceed your GRIT.</div>"
+    "val": 1
       }
     ],
     "actions": [
@@ -1450,6 +1456,12 @@
         "id": "tg_unique",
         "name": "UNIQUE",
         "description": "This weapon or system cannot be duplicated – each character can only have one copy of it installed at a time."
+      },
+      {
+    "id": "kie_Keen",
+    "name": "Keen",
+    "description": "<div>A Keen weapon is able to reach and destroy vital components within a target with ease, either thanks to advanced targeting or overwhelming force. When you make an attack with a Keen weapon, lower the threshold required to score a critical hit by an amount equal to its Keen value. For example, if a weapon has Keen 2, it requires a hit roll of 18+ (instead of 20+) to score a critical hit. Keen gained from multiple sources stacks, but cannot exceed your GRIT.</div>"
+    "val": 2
       }
     ],
     "actions": [
